@@ -1,0 +1,3 @@
+# SupplyPulse - Airflow Orchestration Dependencies
+-r base.txt
+apache-airflow>=2.8.0

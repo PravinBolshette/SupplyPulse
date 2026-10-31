@@ -1,0 +1,14 @@
+.env
+__pycache__/
+_pycache_/
+*.pyc
+.venv/
+data/raw/*
+data/processed/*
+data/models/*
+!data/**/.gitkeep
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.pytest_cache/
+*.log
