@@ -1,14 +1,18 @@
+# Environment variables and secrets
 .env
+
+# Python compilation and cache
 __pycache__/
 _pycache_/
 *.pyc
 .venv/
-data/raw/*
-data/processed/*
-data/models/*
-!data/**/.gitkeep
+.pytest_cache/
+*.log
+
+# IDE and checkpoints
 .ipynb_checkpoints/
 .idea/
 .vscode/
-.pytest_cache/
-*.log
+
+# NOTE: Data and CSV files are now allowed so team members can 
+# share datasets (like suppliers.csv, inventory_levels.csv, etc.) via GitHub.
